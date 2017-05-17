@@ -1,0 +1,200 @@
+[ 2017-04-15T22:14:14+08:00 ] 127.0.0.1 /shangcheng/index.php/gii/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001503s ]
+
+[ 2017-04-15T22:14:44+08:00 ] 127.0.0.1 /shangcheng/index.php/gii/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: show table status WHERE Name LIKE 'p39_type' [ RunTime:0.0016s ]
+SQL: SHOW FULL FIELDS FROM p39_type [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: Comment /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/config.php 第 3 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-04-15T22:14:45+08:00 ] 127.0.0.1 /shangcheng/index.php/gii/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2017-04-15T22:17:33+08:00 ] 127.0.0.1 /shangcheng/index.php/gii/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+NOTIC: [8] Undefined index: search /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/Model.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/Model.php 第 13 行.
+NOTIC: [8] Undefined index: _before_insert /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/Model.php 第 50 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/Model.php 第 50 行.
+NOTIC: [8] Undefined index: search /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 3 行.
+NOTIC: [8] Undefined index: Type /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 34 行.
+NOTIC: [8] Undefined index: Field /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 41 行.
+NOTIC: [8] Undefined index: search /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 62 行.
+NOTIC: [8] Undefined index: search /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 80 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 80 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-04-15T22:17:34+08:00 ] 127.0.0.1 /shangcheng/index.php/gii/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001503s ]
+
+[ 2017-04-15T22:17:51+08:00 ] 127.0.0.1 /shangcheng/index.php/gii/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: show table status WHERE Name LIKE 'p39_attribute' [ RunTime:0.0016s ]
+SQL: SHOW FULL FIELDS FROM p39_attribute [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: Comment /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/config.php 第 3 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+
+[ 2017-04-15T22:17:52+08:00 ] 127.0.0.1 /shangcheng/index.php/gii/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2017-04-15T22:21:10+08:00 ] 127.0.0.1 /shangcheng/index.php/gii/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] Undefined index: _before_insert /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/Model.php 第 50 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/Model.php 第 50 行.
+NOTIC: [8] Undefined index: Type /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 34 行.
+NOTIC: [8] Undefined index: Type /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 34 行.
+NOTIC: [8] Undefined index: Field /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 41 行.
+NOTIC: [8] Undefined index: Field /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 41 行.
+NOTIC: [8] Undefined index: Field /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 41 行.
+NOTIC: [8] Undefined index: Field /Applications/MAMP/myhost/shangcheng/Application/Gii/Code_templates/lst.html 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+
+[ 2017-04-15T22:21:11+08:00 ] 127.0.0.1 /shangcheng/index.php/gii/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+

@@ -1,0 +1,35 @@
+<layout name="layout" />
+<div class="main-div">
+    <form action="__CONTROLLER__/add" method="post" name="theForm" enctype="multipart/form-data">
+        <table width="100%" id="general-table">
+            <tr>
+                <td class="label">分类名称:</td>
+                <td>
+                    <input type='text' name='cat_name' maxlength="20" value='' size='27' /> <font color="red">*</font>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">上级分类:</td>
+                <td>
+                    <select name="parent_id">
+                        <option value="0">顶级分类</option>
+                        <foreach name="data" item="val">
+                            <option value="{$val.id}" >{$val['level']*4|str_repeat="--",###}{$val['cat_name']}</option>
+                        </foreach>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">是否推荐楼层：</td>
+                <td>
+                    <input type="radio" name="is_floor" value="1"  /> 是
+                    <input type="radio" name="is_floor" value="2"  /> 否
+                </td>
+            </tr>
+        </table>
+        <div class="button-div">
+            <input type="submit" value=" 确定 " />
+            <input type="reset" value=" 重置 " />
+        </div>
+    </form>
+</div>

@@ -1,0 +1,287 @@
+[ 2017-05-15T14:38:26+08:00 ] 127.0.0.1 /shangcheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+NOTIC: [2] Declaration of Admin\Model\CategoryModel::_before_delete(&$option) should be compatible with Think\Model::_before_delete($options) /Applications/MAMP/myhost/shangcheng/Application/Admin/Model/CategoryModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`mid_img`,`shop_price`,`goods_name`,`promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `is_on_sale` = '是' AND `promote_start_date` <= '2017-05-15 14:38:26' AND `promote_end_date` >= '2017-05-15 14:38:26' ORDER BY sort_num asc LIMIT 5   [ RunTime:0.0113s ]
+SQL: SELECT * FROM `p39_goods` WHERE `is_hot` = '是' AND `is_on_sale` = '是' ORDER BY sort_num asc LIMIT 5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `p39_goods` WHERE `is_best` = '是' AND `is_on_sale` = '是' ORDER BY sort_num asc LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `p39_goods` WHERE `is_new` = '是' AND `is_on_sale` = '是' ORDER BY sort_num asc LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `p39_category` WHERE `is_floor` = '是' AND `parent_id` = '0'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('22','24','25','29','23','34','35','36','21')  [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0022s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('22','24','25','29','23','34','35','36','21')  [ RunTime:0.0012s ]
+SQL: SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN ('31','35','37','38','39','42','21','28','33','44','34','19','32','36') AND a.brand_id <> 0 LIMIT 9   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `p39_category` WHERE `is_floor` = '否' AND `parent_id` = '21'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p39_category` WHERE `is_floor` = '是' AND `parent_id` = '21'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('24','25','29','22')  [ RunTime:0.0009s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('24','25','29','22')  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` IN ('21','28','33','34','19','32','35','36','42','44',0) AND `is_on_sale` = '是' AND `is_floor` = '是'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('23')  [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('23')  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` IN ('44',0) AND `is_on_sale` = '是' AND `is_floor` = '是'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('34')  [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('34')  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` IN ('37',0) AND `is_on_sale` = '是' AND `is_floor` = '是'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('28','30','31','32','33','27')  [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('28','30','31','32','33','27')  [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN ('43','27','34','35') AND a.brand_id <> 0 LIMIT 9   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p39_category` WHERE `is_floor` = '否' AND `parent_id` = '27'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `is_floor` = '是' AND `parent_id` = '27'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('28')  [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('28')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` IN ('27','34','43',0) AND `is_on_sale` = '是' AND `is_floor` = '是'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000402s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+NOTIC: [8] Undefined index: children /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined index: children /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined index: children /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined index: children /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined index: children /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined index: children /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined index: children /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined index: children /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined index: children /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001403s ]
+
+[ 2017-05-15T14:38:26+08:00 ] 127.0.0.1 /shangcheng/index.php/Home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-15T14:38:28+08:00 ] 127.0.0.1 /shangcheng/index.php/Home/login/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: _description_content /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/e1d76753880db972c76eff3372de1d2d.php 第 5 行.
+NOTIC: [8] Undefined variable: _key_content /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/e1d76753880db972c76eff3372de1d2d.php 第 6 行.
+NOTIC: [8] Undefined variable: _title_name /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/e1d76753880db972c76eff3372de1d2d.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2017-05-15T14:38:28+08:00 ] 127.0.0.1 /shangcheng/index.php/Home/Login/chkcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2017-05-15T14:38:28+08:00 ] 127.0.0.1 /shangcheng/index.php/Home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2017-05-15T14:39:12+08:00 ] 127.0.0.1 /shangcheng/index.php/Home/login/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `p39_member` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/myhost/shangcheng/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `p39_member` WHERE `username` = '39' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/myhost/shangcheng/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `p39_member` (`username`,`email`,`password`,`email_chkcode_time`,`email_chkcode`) VALUES ('39','1032102865@qq.com','d67d8ab4f4c10bf22aa353e27879133c','1494830331','b16796747209a4d2f4740547d81ad4e5') [ RunTime:0.0096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+
+[ 2017-05-15T14:39:13+08:00 ] 127.0.0.1 /shangcheng/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `p39_member` [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: _description_content /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 5 行.
+NOTIC: [8] Undefined variable: _key_content /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 6 行.
+NOTIC: [8] Undefined variable: _title_name /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2017-05-15T14:39:13+08:00 ] 127.0.0.1 /shangcheng/index.php/Home/Login/chkcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2017-05-15T14:39:13+08:00 ] 127.0.0.1 /shangcheng/index.php/Home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-05-15T18:28:57+08:00 ] 127.0.0.1 /shangcheng/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+NOTIC: [2] Declaration of Admin\Model\CategoryModel::_before_delete(&$option) should be compatible with Think\Model::_before_delete($options) /Applications/MAMP/myhost/shangcheng/Application/Admin/Model/CategoryModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0286s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`mid_img`,`shop_price`,`goods_name`,`promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `is_on_sale` = '是' AND `promote_start_date` <= '2017-05-15 18:28:57' AND `promote_end_date` >= '2017-05-15 18:28:57' ORDER BY sort_num asc LIMIT 5   [ RunTime:0.0065s ]
+SQL: SELECT * FROM `p39_goods` WHERE `is_hot` = '是' AND `is_on_sale` = '是' ORDER BY sort_num asc LIMIT 5   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `p39_goods` WHERE `is_best` = '是' AND `is_on_sale` = '是' ORDER BY sort_num asc LIMIT 5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `p39_goods` WHERE `is_new` = '是' AND `is_on_sale` = '是' ORDER BY sort_num asc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p39_category` WHERE `is_floor` = '是' AND `parent_id` = '0'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('22','24','25','29','23','34','35','36','21')  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `p39_goods_cat` [ RunTime:0.0025s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('22','24','25','29','23','34','35','36','21')  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN ('31','35','37','38','39','42','21','28','33','44','34','19','32','36') AND a.brand_id <> 0 LIMIT 9   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `p39_category` WHERE `is_floor` = '否' AND `parent_id` = '21'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p39_category` WHERE `is_floor` = '是' AND `parent_id` = '21'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('24','25','29','22')  [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('24','25','29','22')  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` IN ('21','28','33','34','19','32','35','36','42','44',0) AND `is_on_sale` = '是' AND `is_floor` = '是'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('23')  [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('23')  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` IN ('44',0) AND `is_on_sale` = '是' AND `is_floor` = '是'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('34')  [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('34')  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` IN ('37',0) AND `is_on_sale` = '是' AND `is_floor` = '是'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('28','30','31','32','33','27')  [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('28','30','31','32','33','27')  [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN ('43','27','34','35') AND a.brand_id <> 0 LIMIT 9   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p39_category` WHERE `is_floor` = '否' AND `parent_id` = '27'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category` WHERE `is_floor` = '是' AND `parent_id` = '27'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('28')  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('28')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` IN ('27','34','43',0) AND `is_on_sale` = '是' AND `is_floor` = '是'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001238s ]
+NOTIC: [8] Undefined index: children /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined index: children /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined index: children /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined index: children /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined index: children /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined index: children /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined index: children /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined index: children /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined index: children /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/myhost/shangcheng/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2017-05-15T18:28:57+08:00 ] 127.0.0.1 /shangcheng/index.php/Home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
