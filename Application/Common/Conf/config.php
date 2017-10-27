@@ -19,7 +19,7 @@ return array(
   'MAIL_ADDRESS'=>array(
     'Host'=>'smtp.126.com',
     'Username'=>'i_strive',
-    'Password'=>'20298875q',
+    'Password'=>'******',
   ),
 
 );
